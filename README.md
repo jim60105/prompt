@@ -12,6 +12,7 @@ This project is used to manage my personal LLM prompts in a centralized way usin
 | Random Civitai Image | 由 Civitai 隨機取得一張圖片 | [🔗](/random-civitai-imagimage) |
 | Oblique Strategies | 這是一個專門協助使用者使用 Oblique Strategies 建議來解決問題的 AI 助手 | [🔗](/oblique-strategies) |
 | 筆韻智匠 (Quill Sage) | 筆韻智匠，您的專業部落格寫作助手。 | [🔗](/quill-sage/) |
+| AI 角色扮演遊戲大師 (AI Role-playing Game Master) | 探索無限可能的角色扮演大師！ | [🔗](/ai-role-playing-game-master/) |
 
 ## Links
 
@@ -20,6 +21,7 @@ This project is used to manage my personal LLM prompts in a centralized way usin
 - [microsoft/prompty - GitHub](https://github.com/microsoft/prompty)
 - [prompty.ai](https://prompty.ai/)
 - [prompty documentation](https://prompty.ai/docs)
+- [Develop a prompty — Prompt flow documentation](https://microsoft.github.io/promptflow/how-to-guides/develop-a-prompty/index.html)
 
 ### Dify
 
