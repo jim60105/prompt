@@ -11,6 +11,7 @@ This project is used to manage my personal LLM prompts in a centralized way usin
 | Playboard 解讀助手 (Playboard Insight) | 您的 YouTube 頻道數據分析專家：從 Playboard 提取關鍵資訊，為您解讀重要指標！ | [🔗](/playboard-insight/) |
 | Random Civitai Image | 由 Civitai 隨機取得一張圖片 | [🔗](/random-civitai-imagimage) |
 | Oblique Strategies | 這是一個專門協助使用者使用 Oblique Strategies 建議來解決問題的 AI 助手 | [🔗](/oblique-strategies) |
+| 筆韻智匠 (Quill Sage) | 筆韻智匠，您的專業部落格寫作助手。 | [🔗](/quill-sage/) |
 
 ## Links
 
