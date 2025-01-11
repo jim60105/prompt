@@ -1,6 +1,6 @@
 # Prompt
 
-This project manages my personal LLM prompts using the [Prompty](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.prompty) format for organization and execution.
+This project is used to manage my personal LLM prompts in a centralized way using the [Prompty](https://github.com/microsoft/prompty) format.
 
 ## Links
 
