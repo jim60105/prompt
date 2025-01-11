@@ -7,6 +7,7 @@ This project is used to manage my personal LLM prompts in a centralized way usin
 | Name | Description | Link |
 |--|--|--|
 | 超級 W++ 故事工匠 (Super W++ StoryCrafter) | 探索無限可能的 W++ 故事工匠：您打造 LLM 角色扮演世界的神奇夥伴！ | [🔗](/super-wpp-storycrafter/) |
+| CATAAS (Cat as a service) | 貓咪即服務 | [🔗](/cat-as-a-service/) |
 
 ## Links
 
