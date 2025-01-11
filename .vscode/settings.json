@@ -1,5 +1,9 @@
 {
-    "cSpell.words": ["prompty", "toolsai"],
+    "cSpell.words": [
+        "fakekey",
+        "prompty",
+        "toolsai"
+    ],
     "prompty.currentModelConfiguration": "default",
     "prompty.modelConfigurations": [
         {
@@ -7,7 +11,7 @@
             "type": "azure_openai",
             "api_version": "2024-08-01-preview",
             "azure_endpoint": "${env:AZURE_OPENAI_ENDPOINT}",
-            "azure_deployment": "gpt-4o",
+            "azure_deployment": "${env:AZURE_OPENAI_DEPLOYMENT}",
             "api_key": "${env:AZURE_OPENAI_API_KEY}"
         }
     ]
