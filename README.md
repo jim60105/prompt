@@ -1,12 +1,25 @@
 # Prompt
 
-This project is used to manage my personal LLM prompts in a centralized way using the [Prompty](https://github.com/microsoft/prompty) format.
+This project is used to manage my personal LLM prompts in a centralized way using the [Prompty](https://github.com/microsoft/prompty) format and [Dify DSL](https://docs.dify.ai/guides/application-orchestrate/creating-an-application#creating-from-a-dsl-file) format.
+
+## My works
+
+| Name | Description | Link |
+|--|--|--|
+| 超級 W++ 故事工匠 (Super W++ StoryCrafter) | 探索無限可能的 W++ 故事工匠：您打造 LLM 角色扮演世界的神奇夥伴！ | [🔗](/super-wpp-storycrafter/) |
 
 ## Links
+
+### Prompty
 
 - [microsoft/prompty - GitHub](https://github.com/microsoft/prompty)
 - [prompty.ai](https://prompty.ai/)
 - [prompty documentation](https://prompty.ai/docs)
+
+### Dify
+
+- [Dify.AI · The Innovation Engine for Generative AI](https://dify.ai/)
+- [Dify Documentation](https://docs.dify.ai/)
 
 ## LICENSE
 
