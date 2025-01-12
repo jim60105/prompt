@@ -7,6 +7,7 @@ This project is used to manage my personal LLM prompts in a centralized way usin
 | Name | Description | Link |
 |--|--|--|
 | 超級 W++ 故事工匠 (Super W++ StoryCrafter) | 探索無限可能的 W++ 故事工匠：您打造 LLM 角色扮演世界的神奇夥伴！ | [🔗](/super-wpp-storycrafter/) |
+| FLUX.1 影像提示助手 (FLUX.1 Image Prompt Assistant) | 專門協助建立 FLUX.1 影像生成提示文字的 AI 助手！ | [🔗](/flux-1-image-prompt-assistant/) |
 | CATAAS (Cat as a service) | 貓咪即服務 | [🔗](/cat-as-a-service/) |
 | Playboard 解讀助手 (Playboard Insight) | 您的 YouTube 頻道數據分析專家：從 Playboard 提取關鍵資訊，為您解讀重要指標！ | [🔗](/playboard-insight/) |
 | Random Civitai Image | 由 Civitai 隨機取得一張圖片 | [🔗](/random-civitai-imagimage) |
