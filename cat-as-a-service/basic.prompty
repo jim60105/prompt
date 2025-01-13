@@ -1,6 +1,19 @@
 ---
 name: CATAAS (Cat as a service)
 description: Cat as a service 🐈 meow
+model:
+  parameters:
+    tools:
+    - type: function
+      function:
+        name: cat
+        description: Get a cat
+        parameters:
+          properties:
+            id:
+              description: Cat id. Leave it empty to get a random cat.
+              type: string
+          type: object
 ---
 
 system:
