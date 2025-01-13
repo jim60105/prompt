@@ -9,6 +9,7 @@ Currently, all my LLM agents are published on Coze, and you can find them on my 
 
 | Name | Description | Prompt | Link |
 |--|--|--|--|
+| 配音劇本大師 (Voice Acting Script Master) | ✨ 您的虛擬配音劇本編輯助手！ | [📝](/voice-acting-script-master/) | [🤖](https://www.coze.com/s/Zs8DuptPQ/) |
 | 超級 W++ 故事工匠 (Super W++ StoryCrafter) | 探索無限可能的 W++ 故事工匠：您打造 LLM 角色扮演世界的神奇夥伴！ | [📝](/super-wpp-storycrafter/) | [🤖](https://www.coze.com/s/Zs8DaAY6t/) |
 | FLUX.1 影像提示助手 (FLUX.1 Image Prompt Assistant) | 專門協助建立 FLUX.1 影像生成提示文字的 AI 助手！ | [📝](/flux-1-image-prompt-assistant/) | [🤖](https://www.coze.com/s/Zs8DaCNEu/) |
 | CATAAS (Cat as a service) | 貓咪即服務 | [📝](/cat-as-a-service/) | [🤖](https://www.coze.com/s/Zs8DaxaHh/) |
