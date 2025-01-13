@@ -31,9 +31,12 @@ inputs:
     type: string
     description: "The long term memory of the AI."
 outputs:
-  your_reply_to_user:
+  summary:
     type: string
-    description: "Your reply to user contains only the content of what you said, without narration, without brackets, without your name and description."
+    description: "Summary of the chat."
+  has_new_memory:
+    type: boolean
+    description: "Are there any new memories that need to be recorded?"
 sample:
   User_Language: "正體中文zh-tw"
   World_Definition: Concept(戀愛)["男主角和女友之間的戀愛故事充滿甜蜜和浪漫"+"他們經常一起去看電影、逛街和旅行，享受彼此的陪伴"+"兩人在生活中互相支持，無論遇到什麼困難都能共同面對"+"男主角經常為女友準備驚喜，讓她感受到滿滿的愛意"] Place(台北)["台北是台灣的首都，擁有許多著名的地標如台北 101 和中正紀念堂"+"人口約 270 萬，是一個繁華的都市"+"台北在文化和歷史上都有重要地位，擁有豐富的美食和夜市文化"+"台北經常舉辦各種大型活動和節慶，如跨年煙火和龍舟賽"]
