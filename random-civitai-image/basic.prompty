@@ -1,6 +1,59 @@
 ---
 name: Random Civitai image
 description: 🎲Get a random Civitai image🤖
+model:
+  parameters:
+    tools:
+    - type: function
+      function:
+        name: random
+        description: Generate a random int number from the range you specified.
+        parameters:
+          properties:
+            min:
+              description: Lower limit of the random number.
+              type: integer
+            max:
+              description: Upper limit of the random number.
+              type: integer
+          required:
+          - min
+          - max
+          type: object
+    - type: function
+      function:
+        name: images
+        description: Civitai REST API
+        parameters:
+          properties:
+            limit:
+              description: The number of results to be returned per page. This can be a number between 0 and 200. By default, each page will return 100 results.
+              type: integer
+            postId:
+              description: The ID of a post to get images from
+              type: integer
+            modelId:
+              description: The ID of a model to get images from (model gallery)
+              type: integer
+            modelVersionId:
+              description: The ID of a model version to get images from (model gallery filtered to version)
+              type: integer
+            username:
+              description: Filter to images from a specific user
+              type: string
+            nsfw:
+              description: Filter to images that contain mature content flags or not (undefined returns all) (None, Soft, Mature, X)
+              type: string
+            sort:
+              description: The order in which you wish to sort the results (Most Reactions, Most Comments, Newest)
+              type: string
+            period:
+              description: The time frame in which the images will be sorted (AllTime, Year, Month, Week, Day)
+              type: string
+            page:
+              description: The page from which to start fetching creators
+              type: integer
+          type: object
 sample:
   USER_INPUT: Surprise!
 ---

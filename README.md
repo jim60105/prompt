@@ -39,6 +39,7 @@ Currently, all my LLM agents are published on Coze, and you can find them on my 
 - [prompty.ai](https://prompty.ai/)
 - [prompty documentation](https://prompty.ai/docs)
 - [Develop a prompty — Prompt flow documentation](https://microsoft.github.io/promptflow/how-to-guides/develop-a-prompty/index.html)
+- [Prompty examples](https://github.com/microsoft/prompty/tree/main/runtime/promptycs/Prompty.Core.Tests/prompty)
 
 ### Dify
 
