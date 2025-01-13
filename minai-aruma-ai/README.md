@@ -1,5 +1,7 @@
 # 薬袋アルマ AI (Minai Aruma AI)
 
+[![【#雑談／#chitchat 】打造AI艦長來聊天‼看誰先破防(X)艦長AIを作ってみる‼【薬袋アルマ／Vtuber】](youtube.jpg)](https://www.youtube.com/live/AKbPxnWtMlw)
+
 ✨ 扮演 VTuber 薬袋アルマ的聊天機器人！  
 
 ## Link
