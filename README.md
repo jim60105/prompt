@@ -19,6 +19,7 @@ Currently, all my LLM agents are published on Coze, and you can find them on my 
 | Oblique Strategies | 這是一個專門協助使用者使用 Oblique Strategies 建議來解決問題的 AI 助手 | [📝](/oblique-strategies) | [🤖](https://www.coze.com/s/Zs8DauL1w/) |
 | 筆韻智匠 (Quill Sage) | 筆韻智匠，您的專業部落格寫作助手。 | [📝](/quill-sage/) | [🤖](https://www.coze.com/s/Zs8DahdjR/) |
 | 薬袋アルマ AI (Minai Aruma AI) | 扮演 VTuber 薬袋アルマ的聊天機器人！ | [📝](/minai-aruma-ai/) | [🤖](https://www.coze.com/s/Zs8Da5fqD/) |
+| JackEllie Help Bot | 扮演 YouTuber JackEllie 的聊天機器人 | [📝](/jackellie-help-bot/) | [🤖](https://www.coze.com/s/Zs8DbRUQo/) |
 | AI 角色扮演遊戲大師 (AI Role-playing Game Master) | 探索無限可能的角色扮演大師！ | [📝](/ai-role-playing-game-master/) | [🤖](https://www.coze.com/s/Zs8Da5fdX/) |
 | AI Waifu (AI 我婆) | ✨探索無限可能的 AI 老婆❤️️ | [📝](/ai-waifu/) | [🤖](https://www.coze.com/s/Zs8DuMHu9/) |
 
