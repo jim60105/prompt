@@ -34,7 +34,7 @@
 
 - **Basic Runner** (`0_basic.prompty`): 初始設定和基礎執行器
 - **Target Generator** (`1_target.prompty`): 生成目標提示詞
-- **Evaluator** (`2_evaluate.prompty`): 評估提示詞效果
+- **Evaluator** (`2_evaluator.prompty`): 評估提示詞效果
 - **Optimizer** (`3_optimizer.prompty`): 優化提示詞
 
 ## 相關工具
