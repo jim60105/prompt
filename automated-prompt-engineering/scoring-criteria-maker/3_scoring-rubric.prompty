@@ -1,0 +1,33 @@
+---
+name: Scoring Criteria Maker
+description: This bot is part of Automated Prompt Engineering, designed to generate the scoring criteria.
+model:
+  configuration:
+    type: azure_openai
+    azure_deployment: gpt-4o-mini
+outputs:
+  scoring_rubric:
+    type: string
+    description: Develop a precise 0-100 scoring rubric with detailed criteria for each 5-point increment.
+sample:
+  goal_analysis: |
+    The goal is to create a concise, high-level title for a pull request using the imperative tense and following the kernel git commit style guide. The title should capture the overall theme without listing specific modifications or repeating commit summaries, and it should infer the functionality or problem solved, avoiding vague descriptions and being no more than 50 characters.
+  scoring_rubric: |
+    0-5: Title is not in imperative tense, exceeds 50 characters, and does not follow the kernel git commit style guide. 6-10: Title is in imperative tense but exceeds 50 characters and does not capture the overall theme. 11-15: Title is in imperative tense, within 50 characters, but lists specific modifications or repeats commit summaries. 16-20: Title is in imperative tense, within 50 characters, but is extremely vague. 21-25: Title is in imperative tense, within 50 characters, captures the theme but includes some specific modifications. 26-30: Title is in imperative tense, within 50 characters, captures the theme but repeats commit summaries. 31-35: Title is in imperative tense, within 50 characters, captures the theme but is somewhat vague. 36-40: Title is in imperative tense, within 50 characters, captures the theme but does not infer functionality or problem solved. 41-45: Title is in imperative tense, within 50 characters, captures the theme, infers functionality or problem solved but is slightly vague. 46-50: Title is in imperative tense, within 50 characters, captures the theme, infers functionality or problem solved clearly.
+---
+
+system:
+Rewrite the following score table to a "range from 0 to 100" score table. You need to reallocate the score intervals so that its range changes to 0 to 100 with detailed criteria for each 5-point increment.
+
+General goal of this Scoring Rubric:
+
+{{goal_analysis}}
+
+Scoring Rubric has to be rewrite:
+
+{{scoring_rubric}}
+
+
+
+Only respond with the Scoring Rubric content, do not greet me, and do not respond with any additional text.Only respond with the Scoring Rubric content, do not greet me, and do not respond with any additional text.Only respond with the Scoring Rubric content, do not greet me, and do not respond with any additional text.
+
