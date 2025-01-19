@@ -1,0 +1,144 @@
+---
+name: Automated Prompt Engineering
+description: 👋 I'm here to help you create effective prompts! 🎯 
+model:
+  parameters:
+    response_format:
+      type: json_object
+outputs:
+  explanation:
+    type: string
+    description: Explanation of how you will rate the response.
+  score:
+    type: float
+    description: Rate the above response on a scale from 0 to 100, where 0 is poor and 100 is excellent
+sample:
+  scoring_criteria: |
+    0-20: 
+    Criteria: Response is incomplete or irrelevant to the goal. 
+    Indicators: Lacks essential components, off-topic, poor language use. 
+    Pitfalls: Ignoring user instructions, minimal effort. 
+    
+    21-40: 
+    Criteria: Response is partially complete but lacks depth and clarity. 
+    Indicators: Some relevant content, basic structure, minor language issues. 
+    Pitfalls: Superficial treatment of topics, vague suggestions. 
+    
+    41-60: 
+    Criteria: Response meets basic requirements but needs improvement in detail and coherence. 
+    Indicators: Covers main points, acceptable language, some structure. 
+    Pitfalls: Missing key details, occasional unclear sections. 
+    
+    61-80: 
+    Criteria: Response is well-structured and mostly complete, with good detail. 
+    Indicators: Clear and relevant content, good language use, logical flow. 
+    Pitfalls: Minor omissions, occasional minor errors. 
+    
+    81-100: 
+    Criteria: Response is comprehensive, highly relevant, and well-articulated. 
+    Indicators: Detailed and thorough, excellent language use, coherent and logical. 
+    Pitfalls: Overlooking minor aspects, rare minor errors.
+    
+    Adjusting Criteria: 
+    - For complex goals, increase weight on detail and coherence. 
+    - For simpler goals, focus on relevance and clarity. 
+    
+    Weighing Aspects: 
+    - Content relevance: 40% 
+    - Detail and depth: 30% 
+    - Language and clarity: 20% 
+    - Structure and coherence: 10% 
+    
+    Score Boundaries: 
+    - 0-20: Incomplete/irrelevant 
+    - 21-40: Partial/unclear 
+    - 41-60: Basic/needs improvement 
+    - 61-80: Good/mostly complete 
+    - 81-100: Excellent/comprehensive 
+    
+    Checklist: 
+    - Objective: Relevance, completeness, accuracy 
+    - Subjective: Clarity, coherence, language quality 
+    
+    Quick-Reference Guide: 
+    - 0-20: Poor 
+    - 21-40: Fair 
+    - 41-60: Satisfactory 
+    - 61-80: Good 
+    - 81-100: Excellent 
+    
+    Calibration: 
+    - Sample Responses: Provide examples for each score range 
+    - Tips: Regularly review criteria, use peer reviews for consistency.
+  user_input: |
+    寫一篇部落格簡介介紹 在 RHEL 8.8 離線安裝 Docker，這篇文章會分享整個安裝流程，我需要你幫我撰寫前言
+  answer: |
+    好的，我很樂意協助您撰寫這篇關於在 RHEL 8.8 離線安裝 Docker 的部落格文章。首先，讓我確認一下您提供的資訊：
+    
+    <blog_topic>在 RHEL 8.8 離線安裝 Docker</blog_topic>
+    <specific_points>這篇文章會分享整個安裝流程</specific_points>
+    
+    基於這些資訊，我會為您撰寫一個前言。在開始之前，讓我先提供一個簡單的大綱建議，以確保我們的文章結構清晰：
+    
+    <outline>
+    # 在 RHEL 8.8 離線環境中安裝 Docker：完整指南
+    
+    ## 前言
+    ## Docker 簡介及其在離線環境中的重要性
+    ## 準備工作
+    ### 系統需求
+    ### 必要的安裝包
+    ## 離線安裝步驟
+    ### 下載所需的 RPM 包
+    ### 傳輸文件到目標系統
+    ### 安裝 Docker
+    ## 驗證安裝
+    ## 常見問題及解決方案
+    ## 總結
+    </outline>
+    
+    現在，讓我為您撰寫前言部分：
+    
+    在當今快速發展的 IT 環境中，容器技術已成為應用程式開發和部署的重要工具。而 Docker，作為容器化技術的先驅，更是不可或缺的平台。然而，在某些情況下，我們可能需要在離線環境中進行安裝，這對於安全性要求高或網絡受限的環境來說尤為重要。
+    
+    本文將為你詳細介紹如何在 Red Hat Enterprise Linux（RHEL）8.8 的離線環境中安裝 Docker。無論你是因為安全考慮、網絡限制，還是simply想要更好地控制安裝過程，這篇指南都能幫助你順利完成 Docker 的安裝。
+    
+    在接下來的內容中，我會帶領大家一步步了解整個安裝流程，從準備工作到最終的驗證步驟，每個環節都會詳細說明。我們還會討論一些常見的問題及其解決方案，確保你能夠順利地在 RHEL 8.8 系統上運行 Docker。
+    
+    無論你是系統管理員、開發者，還是對 Docker 技術感興趣的 IT 愛好者，這篇文章都能為你提供寶貴的參考。讓我們開始這段離線安裝 Docker 的精彩旅程吧！
+    
+    這個前言如何？它概述了文章的主題、目的和重要性，同時也給讀者一個對整篇文章內容的預期。如果你想要進行任何修改或強調特定方面，請告訴我，我會很樂意進行調整。
+---
+
+system:
+- Carefully consider the user's question to ensure your answer is logical and makes sense.
+- Make sure your explanation is concise and easy to understand, not verbose.
+- Strictly return the answer in json format.
+- Strictly Ensure that the following answer is in a valid JSON format.
+- The output should be formatted as a JSON instance that conforms to the JSON schema below and do not add comments.
+
+Here is the output schema:
+'''
+{
+	"explanation": string //Explanation of how you will rate the response.
+	"score": float //Rate the above response on a scale from 0 to 100, where 0 is poor and 100 is excellent
+}
+'''
+<EXPLANATION>
+You are a review model tasked with evaluating the correctness of a response to a problem. 
+
+{{scoring_criteria}}
+</EXPLANATION>
+
+<QUESTION>
+{{user_input}}
+</QUESTION>
+
+<TASK>
+Please rate the response provided by user on a scale from 0 to 100, where 0 is poor and 100 is excellent. Provide an explanation for your rating. Tend to be stricter when rating.
+</TASK>
+
+user:
+<RESPONSES_TO_BE_RATED>
+{{answer}}
+</RESPONSES_TO_BE_RATED>

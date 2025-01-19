@@ -25,8 +25,9 @@ Currently, all my LLM agents are published on Coze, and you can find them on my 
 | Rust AI Buddy | 您的 Rust 夥伴，隨時準備解答您對 Rust 的問題 | [📝](/rust-ai-buddy/) | [🤖](https://www.coze.com/s/Zs8DbwbnY/) |
 | C# AI Buddy | 您的 C# 夥伴，隨時準備解答您對 C# 的問題 | [📝](/c-sharp-ai-buddy/) | [🤖](https://www.coze.com/s/Zs8DbaaKE/) |
 | Batch Webpage Summary Assistant | 🗃️ 一次性將大量的網頁做摘要，方便製作 LLM 外部知識庫 🧠 | [📝](/batch-webpage-summary-assistant/) | [🤖](https://www.coze.com/s/Zs8Dgdeq5/) |
-| Scoring Criteria Maker | 生成評分標準的工具 | [📝](/automated-prompt-engineering/scoring-criteria-maker/) | [🤖](https://www.coze.com/s/Zs8Dg8SFx/) |
-| Simple Prompt Maker | 生成初始提示的工具 | [📝](/automated-prompt-engineering/simple-prompt-maker/) | [🤖](https://www.coze.com/s/Zs8Dg5sfY/) |
+| Automated Prompt Engineering | 自動化提示詞工程工具 | [📝](/automated-prompt-engineering/) | [🤖](https://www.coze.com/s/Zs8DgSDKN/) |
+| └ Scoring Criteria Maker | 生成評分標準的工具 | [📝](/automated-prompt-engineering/scoring-criteria-maker/) | [🤖](https://www.coze.com/s/Zs8Dg8SFx/) |
+| └ Simple Prompt Maker | 生成初始提示的工具 | [📝](/automated-prompt-engineering/simple-prompt-maker/) | [🤖](https://www.coze.com/s/Zs8Dg5sfY/) |
 
 ## My blogs
 
