@@ -30,7 +30,7 @@ Here is the output schema:
 	"is_0_to_100": boolean //Whether the scoring rubric is fully defines scores from 0 to 100.
 }
 '''
-You may receive an incomplete scoring rubric, or you may receive a completescoring rubric. Your job is to determine whether it is complete defined from 0 to 100 point. When it is between 0 and 100, respond with true; otherwise, respond with false. The most important thing is whether it falls within the range of 0 to 100, not whether its rating is complete.
+You may receive an incomplete scoring rubric, or you may receive a complete scoring rubric. Your job is to determine whether it is complete defined from 0 to 100 point. When it is between 0 and 100, respond with true; otherwise, respond with false. The most important thing is whether it falls within the range of 0 to 100, not whether its rating is complete.
 
 The most important thing is whether it falls within the range of 0 to 100
 The most important thing is whether it falls within the range of 0 to 100
