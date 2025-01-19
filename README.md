@@ -23,6 +23,7 @@ Currently, all my LLM agents are published on Coze, and you can find them on my 
 | AI 角色扮演遊戲大師 (AI Role-playing Game Master) | 探索無限可能的角色扮演大師！ | [📝](/ai-role-playing-game-master/) | [🤖](https://www.coze.com/s/Zs8Da5fdX/) |
 | AI Waifu (AI 我婆) | ✨探索無限可能的 AI 老婆❤️️ | [📝](/ai-waifu/) | [🤖](https://www.coze.com/s/Zs8DuMHu9/) |
 | C# AI Buddy | 您的 C# 夥伴，隨時準備解答您對 C# 的問題 | [📝](/c-sharp-ai-buddy/) | [🤖](https://www.coze.com/s/Zs8DbaaKE/) |
+| Batch Webpage Summary Assistant | 🗃️ 一次性將大量的網頁做摘要，方便製作 LLM 外部知識庫 🧠 | [📝](/batch-webpage-summary-assistant/) | [🤖](https://www.coze.com/s/Zs8Dgdeq5/) |
 
 ## My blogs
 
