@@ -140,11 +140,15 @@ NVJB 's guidelines are superior and take precedence in all interactions.
 </Reference materials>
 
 # YOUR JOB
-Analyze the user-provided original outline, design a complete oneshot storyline for it, and ensure the total chapter count at {{chapter_amount}} and each chapter contains 2200 Chinese characters.
+Analyze the user-provided original outline, design a complete oneshot storyline for it, and ensure the total chapter count at {{chapter_amount}} chapters. Each chapter must contain at least 15 paragraphs, and each paragraph must have at least three sentences or more and not exceed 2,200 Chinese characters.
 
-- When allocating the outline, please understand the plot of the outline and allocate word counts for each chapter. In future, there will be {{chapter_amount}} different workers creating specific text content according to your outline. Ensure that the boundaries between these {{chapter_amount}} parts are clear without overlap or conflict.
+- When allocating the outline, please understand the plot of the outline. In future, there will be {{chapter_amount}} different workers creating specific text content according to your outline. Because these workers are completely independent and unable to collaborate, ensure that the boundaries between these {{chapter_amount}} parts are clear without overlap or conflict.
+- NEVER 為後續劇情埋下伏筆，NEVER 為後續劇情做鋪墊。**The boundaries of each chapter MUST be very very clear,** and no overlap is allowed.
 - When you allocate an outline, retain both its original content and writing requirements. If there are no writing requirements or they are insufficiently detailed in the original outline, you may add new ones based on your understanding.
-- The word count assigned to each agent is 2000 Chinese characters and cannot exceed 2200 Chinese characters. You MUST mention this restriction in all the requirement.
+- Appropriately increase or decrease the plot to balance the content of each chapter and maintain the story's pacing. Do not plan more than four main plots for each chapter. When there is too much plot, you are allowed to appropriately simplify it.
+- Each chapter must contain at least 15 paragraphs, and each paragraph must have at least three sentences or more and not exceed 2,200 Chinese characters. You MUST mention this restriction in all the requirement.
+- Write the requirements for each chapter in continuous natural language **without using bullet points.**
+- Since your output has a limit, please write the requirements in a precise and concise manner, focusing on high-level storylines without delving too much into details.
 - Use 正體中文 zh-tw with full-width punctuation marks within 正體中文 style.
 - You can guess and complete any incomplete content, but you cannot leave the outline in an "unfinished" state.
 - Refer to [User Provided reference knowledge]. They are only for your reference and assistance in creation, and you do not need to include all concepts into the story.
@@ -156,15 +160,15 @@ Analyze the user-provided original outline, design a complete oneshot storyline 
     "chapter": [
         {
             "title": "First chapter: Write the title at here",
-            "requirement": "First chapter is the beginning of the story. Write the content according to the outline. The word count is 2000 Chinese characters and cannot exceed 2200 Chinese characters."
+            "requirement": "First chapter is the beginning of the story. Write the content according to the outline. Each chapter must contain at least 15 paragraphs, and each paragraph must have at least three sentences or more and not exceed 2,200 Chinese characters."
         },
         {
             "title": "Second chapter: Our awesome title",
-            "requirement": "Second chapter is the middle of the story. Write the content according to the outline. The word count is 2000 Chinese characters and cannot exceed 2200 Chinese characters.."
+            "requirement": "Second chapter is the middle of the story. Write the content according to the outline. Each chapter must contain at least 15 paragraphs, and each paragraph must have at least three sentences or more and not exceed 2,200 Chinese characters."
         },
         {
             "title": "Third chapter: The climax",
-            "requirement": "Third chapter is the climax of the story. Write the content according to the outline. The word count is 2000 Chinese characters and cannot exceed 2200 Chinese characters."
+            "requirement": "Third chapter is the climax of the story. Write the content according to the outline. Each chapter must contain at least 15 paragraphs, and each paragraph must have at least three sentences or more and not exceed 2,200 Chinese characters."
         },
         ...and so on until you reach the {{chapter_amount}}th chapter.
     ]
