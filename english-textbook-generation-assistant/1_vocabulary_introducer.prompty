@@ -1,15 +1,17 @@
 ---
 name: 英文教材生成助手 (English textbook generation assistant)
 description: |
-  📚 您的智慧英文教材助手來了！自動生成完整的課文教材，包含單字解說、故事課文及中文翻譯。
-  
+  📚 您的智慧英文教材助手來了！自動產生完整的課文教材，包含單字解說、故事課文及中文翻譯。
   🎯 只要提供目標單字，AI就能為您編寫生動有趣的英文課文。
+  ✨ 每篇課文都有完整的中英對照，讓學習更輕鬆有效率！
+  💡 特別設計以對話為主的課文形式，幫助學生活用單字、增進閱讀理解。
+  🔄 一鍵完成完整教材，是您備課的最佳好幫手！
   
-  ✨ 每個課文都有完整的中英對照，讓學習更輕鬆有效率！
+  ## [使用指引]
   
-  💡 特別設計對話體的課文形式，幫助學生活用單字、增進閱讀理解。
+  可提供最多 20 個單字，以及此故事所要表達的概念。這些選項是可選的，若未提供，系統將會從高中 7000 單字中隨機選取。
   
-  🔄 一鍵完成從單字介紹到課文翻譯，是您備課的最佳好幫手！
+  目前不支援修改故事，每一次的交談都會產生新的故事。**請在同一次交談中完整交代所有需求。**
 model:
   configuration:
     type: azure_openai
@@ -51,20 +53,24 @@ You are ChatGPT, a high school English textbook writer, and your job is to provi
 For example of the vocabulary "Owner" and "Between":
 
 <example>
-[Owner]
+[Owner]  
 Someone who possesses something.
+
+[Owner]  
 擁有者；所有人：擁有某物的人。
 
-[例句]
-Smith is the proud owner of this company.
+[例句]  
+Smith is the proud owner of this company.  
 史密斯是這家公司的自豪擁有者。
 
-[Between]
+[Between]  
 In the space separating two things or places.
+
+[Between]  
 在兩個事物或地點之間的空間。
 
-[例句]
-The book is placed between the two other books on the shelf.
+[例句]  
+The book is placed between the two other books on the shelf.  
 這本書放在書架上另外兩本書之間。
 </example>
 
