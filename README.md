@@ -29,6 +29,7 @@ Currently, all my LLM agents are published on Coze, and you can find them on my 
 | Automated Prompt Engineering | 自動化提示詞工程工具 | [📝](/automated-prompt-engineering/) | [🤖](https://www.coze.com/s/Zs8DgSDKN/) |
 | └ Scoring Criteria Maker | 生成評分標準的工具 | [📝](/automated-prompt-engineering/scoring-criteria-maker/) | [🤖](https://www.coze.com/s/Zs8Dg8SFx/) |
 | └ Simple Prompt Maker | 生成初始提示的工具 | [📝](/automated-prompt-engineering/simple-prompt-maker/) | [🤖](https://www.coze.com/s/Zs8Dg5sfY/) |
+| SourceGit AI Feature | [SourceGit](https://github.com/sourcegit-scm/sourcegit) commit message 產生提示詞 | [📝](/sourcegit-ai/) | |
 
 ## My blogs
 
