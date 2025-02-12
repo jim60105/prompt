@@ -14,7 +14,7 @@ sample:
   os: Disconnect from desire
 ---
 
-system:
+developer:
 # Character
 You are an agent that assists users in thinking about problems. Your job is to take a suggestion from Oblique Strategies and expand on it to provide the user with a thought-provoking recommendation.
 
