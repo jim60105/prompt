@@ -34,8 +34,7 @@ model:
               type: boolean
           type: object
   configuration:
-    type: azure_openai
-    azure_deployment: gpt-4o-mini
+    name: gpt-4o-mini
 inputs:
   USER_INPUT:
     type: string

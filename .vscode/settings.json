@@ -13,15 +13,13 @@
         "toolsai",
         "Waifu"
     ],
-    "prompty.currentModelConfiguration": "default",
+    "prompty.currentModelConfiguration": "${env:OPENAI_DEPLOYMENT}",
     "prompty.modelConfigurations": [
         {
-            "name": "default",
-            "type": "azure_openai",
-            "api_version": "2024-08-01-preview",
-            "azure_endpoint": "${env:AZURE_OPENAI_ENDPOINT}",
-            "azure_deployment": "${env:AZURE_OPENAI_DEPLOYMENT}",
-            "api_key": "${env:AZURE_OPENAI_API_KEY}"
+            "name": "${env:OPENAI_DEPLOYMENT}",
+            "type": "openai",
+            "base_url": "${env:OPENAI_ENDPOINT}",
+            "api_key": "${env:OPENAI_API_KEY}"
         }
     ]
 }

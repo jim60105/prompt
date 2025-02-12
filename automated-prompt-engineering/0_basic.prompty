@@ -3,8 +3,7 @@ name: Automated Prompt Engineering
 description: 👋 I'm here to help you create effective prompts! 🎯 
 model:
   configuration:
-    type: azure_openai
-    azure_deployment: gpt-4o-mini
+    name: gpt-4o-mini
 sample:
   USER_INPUT: 你使用什麼樣的技術來最佳化提示詞呢?
 ---

@@ -6,8 +6,7 @@ model:
     response_format:
       type: json_object
   configuration:
-    type: azure_openai
-    azure_deployment: gpt-o1-mini
+    name: gpt-4o
 outputs:
   goal_analysis:
     type: string

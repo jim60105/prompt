@@ -3,8 +3,7 @@ name: Scoring Criteria Maker
 description: This bot is part of Automated Prompt Engineering, designed to generate the scoring criteria.
 model:
   configuration:
-    type: azure_openai
-    azure_deployment: gpt-4o-mini
+    name: gpt-4o-mini
 outputs:
   scoring_rubric:
     type: string

@@ -3,8 +3,7 @@ name: 垃圾小說產生器
 description: 📚 探索無限可能的廁紙 🗑️
 model:
   configuration:
-    type: azure_openai
-    azure_deployment: gpt-4o-mini
+    name: gpt-4o-mini
   parameters:
     tools:
     - type: function

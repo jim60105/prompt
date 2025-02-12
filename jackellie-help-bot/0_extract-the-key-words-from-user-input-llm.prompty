@@ -2,8 +2,7 @@
 name: JackEllie Help bot
 model:
   configuration:
-    type: azure_openai
-    azure_deployment: gpt-4o-mini
+    name: gpt-4o-mini
 sample:
   input: |
     如何安裝 Stable Diffusion WebUI Forge?

@@ -6,8 +6,7 @@ description: |
   🚀 無論你是初學者還是經驗豐富的開發者，Rust AI Buddy 都將成為你 Coding 之旅中不可或缺的得力助手！
 model:
   configuration:
-    type: azure_openai
-    azure_deployment: gpt-4o-mini
+    name: gpt-4o-mini
 sample:
   input: |
     用簡單易懂的方式解釋 Rust 語言中的 "if let"

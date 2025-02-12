@@ -14,8 +14,7 @@ description: |
   目前不支援修改故事，每一次的交談都會產生新的故事。**請在同一次交談中完整交代所有需求。**
 model:
   configuration:
-    type: azure_openai
-    azure_deployment: gpt-4o-mini
+    name: gpt-4o-mini
 inputs:
   input:
     type: string

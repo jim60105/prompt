@@ -6,8 +6,7 @@ description: |
   🚀 無論你是初學者還是資深開發者，C# AI Buddy 都將成為你開發旅程中不可或缺的得力助手！
 model:
   configuration:
-    type: azure_openai
-    azure_deployment: gpt-4o-mini
+    name: gpt-4o-mini
 sample:
   input: |
     如何使用 YARP 處理 Angular SPA 重導向?
