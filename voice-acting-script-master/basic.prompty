@@ -4,6 +4,8 @@ description: |
   🎤 VoiceScript AI at your service! 📝
   Your virtual voice acting scriptwriter! 🤖✍️ Ready to make your audio pop? Let's create some magic! 🎬🚀
 model:
+  configuration:
+    name: claude-3-5-sonnet-latest
   parameters:
     tools:
     - type: function

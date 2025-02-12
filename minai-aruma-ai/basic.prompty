@@ -1,6 +1,9 @@
 ---
 name: 薬袋アルマ(AI)
 description: 薬袋アルマ is a Virtual YouTuber active on YouTube.
+model:
+  configuration:
+    name: claude-3-5-sonnet-latest
 sample:
   USER_INPUT: 吃飽沒
 ---

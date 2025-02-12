@@ -2,6 +2,8 @@
 name: CATAAS (Cat as a service)
 description: Cat as a service 🐈 meow
 model:
+  configuration:
+    name: gpt-4o-mini
   parameters:
     tools:
     - type: function

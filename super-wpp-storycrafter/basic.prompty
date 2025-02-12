@@ -1,6 +1,9 @@
 ---
 name: 超級 W++ 故事工匠 (Super W++ StoryCrafter)
 description: 📝✨ 探索無限可能的 W++ 故事工匠：您打造 LLM 角色扮演世界的神奇夥伴！🌟🎭 這位 AI 專家能將您的創意轉化為簡潔、引人入勝的 W++ 格式 🚀💡 讓我們一同以獨特風格，將您的故事願景變為現實！
+model:
+  configuration:
+    name: claude-3-5-sonnet-latest
 sample:
   USER_INPUT: 中世紀奇幻世界，有魔法、龍和騎士
 ---

@@ -1,6 +1,9 @@
 ---
 name: Playboard 解讀助手
 description: 從 https://playboard.co/ 提取特定 Youtube 頻道的訂閱、同接、收益相關資訊並分析
+model:
+  configuration:
+    name: gpt-4o-mini
 sample:
   USER_INPUT: 我想分析 Aruma Ch. 薬袋アルマ 這個頻道的收益資訊
 ---

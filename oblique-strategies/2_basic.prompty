@@ -5,6 +5,8 @@ model:
   parameters:
     response_format:
       type: json_object
+  configuration:
+    name: claude-3-5-sonnet-latest
 inputs:
   os:
     type: string

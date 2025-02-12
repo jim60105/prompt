@@ -1,6 +1,9 @@
 ---
 name: AI Waifu (AI 我婆)
 description: ✨探索無限可能的 AI 老婆❤️
+model:
+  configuration:
+    name: claude-3-5-sonnet-latest
 inputs:
   User_Language:
     type: string

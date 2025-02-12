@@ -2,6 +2,8 @@
 name: Random Civitai image
 description: 🎲Get a random Civitai image🤖
 model:
+  configuration:
+    name: gpt-4o-mini
   parameters:
     tools:
     - type: function

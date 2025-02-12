@@ -8,6 +8,8 @@ model:
   parameters:
     response_format:
       type: json_object
+  configuration:
+    name: gpt-4o-mini
 outputs:
   title:
     type: string

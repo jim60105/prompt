@@ -4,6 +4,9 @@ description: |
   🤖 遇見你的最佳 Rust 助手 — Rust AI Buddy！
   💻 我能夠即時解答你的 Rust 相關問題，提供程式碼優化建議，並協助你快速掌握這門強大的程式語言。
   🚀 無論你是初學者還是經驗豐富的開發者，Rust AI Buddy 都將成為你 Coding 之旅中不可或缺的得力助手！
+model:
+  configuration:
+    name: claude-3-5-sonnet-latest
 sample:
   BOT_USER_INPUT: |
     我正在使用 tokio，如何立即執行 future，並在執行下一行之前等待它?

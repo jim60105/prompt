@@ -1,5 +1,8 @@
 ---
 name: JackEllie Help bot
+model:
+  configuration:
+    name: claude-3-5-sonnet-latest
 sample:
   BOT_USER_INPUT: 如何安裝 Stable Diffusion WebUI Forge?
   knowledge: |

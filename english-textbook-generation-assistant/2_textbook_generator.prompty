@@ -12,6 +12,9 @@ description: |
   可提供最多 20 個單字，以及此故事所要表達的概念。這些選項是可選的，若未提供，系統將會從高中 7000 單字中隨機選取。
   
   目前不支援修改故事，每一次的交談都會產生新的故事。**請在同一次交談中完整交代所有需求。**
+model:
+  configuration:
+    name: claude-3-5-sonnet-latest
 inputs:
   vocabularies:
     type: array

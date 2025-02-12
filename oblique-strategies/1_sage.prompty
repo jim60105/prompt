@@ -1,7 +1,10 @@
 ---
 name: Oblique Strategies_Sage
 description: I will randomly use a suggestion from Oblique Strategies to help you.
-# Note: Use this prompt with a highly proficient model, such as o1.
+model:
+  configuration:
+    # Note: Use this prompt with a highly proficient model, such as o1.
+    name: o1
 inputs:
   os:
     type: string
