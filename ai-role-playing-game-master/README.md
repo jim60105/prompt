@@ -7,6 +7,7 @@
 ## Link
 
 - [Coze Store](https://www.coze.com/s/Zs8DPyGYY/)
+- [Coze Store (Think version)](https://www.coze.com/s/Zs8fxdT9E/)
 
 ## 簡介
 
@@ -28,4 +29,5 @@
 ## 技術要點
 
 - JB Prompt
-- 透過 JSON output 做 Chain-of-Thought，大幅提升輸出品質
+- 透過 Multi-agents 多階段建構回答
+- 使用 DeepSeek-R1 的思考流程引導 Claude 作答
