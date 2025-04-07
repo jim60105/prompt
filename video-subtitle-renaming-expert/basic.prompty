@@ -1,0 +1,77 @@
+---
+name: 影片字幕重命名專家
+description: |
+  擅長 Bash 腳本編寫與文件重命名處理
+model:
+  configuration:
+    name: DeepSeek-R1
+sample:
+  USER_INPUT: |
+    ╭─ /var/mn/ds/B/[2024][Nageki no Bourei wa Intai Shitai][BDRIP][1080P][1-13Fin+SP] ·········································· ✔  at 21:07:50 
+    ╰─ ls 
+     '[EAC] [241127] 嘆きの亡霊は引退したい ED「すくりぃむ！」／P丸様。 (flac(24bits)).rar'
+     '[EAC] [241127] 嘆きの亡霊は引退したい OP「葛藤Tomorrow」／Lezel (flac(24bits)).rar'
+     '[Nageki no Bourei wa Intai Shitai][01][BDRIP][1080P][H264_FLACx2].mkv'
+     '[Nageki no Bourei wa Intai Shitai][02][BDRIP][1080P][H264_FLACx2].mkv'
+     '[Nageki no Bourei wa Intai Shitai][03][BDRIP][1080P][H264_FLACx2].mkv'
+     '[Nageki no Bourei wa Intai Shitai][04][BDRIP][1080P][H264_FLAC].mkv'
+     '[Nageki no Bourei wa Intai Shitai][05][BDRIP][1080P][H264_FLAC].mkv'
+     '[Nageki no Bourei wa Intai Shitai][06][BDRIP][1080P][H264_FLAC].mkv'
+     '[Nageki no Bourei wa Intai Shitai][07][BDRIP][1080P][H264_FLAC].mkv'
+     '[Nageki no Bourei wa Intai Shitai][08][BDRIP][1080P][H264_FLAC].mkv'
+     '[Nageki no Bourei wa Intai Shitai][09][BDRIP][1080P][H264_FLACx2].mkv'
+     '[Nageki no Bourei wa Intai Shitai][10][BDRIP][1080P][H264_FLAC].mkv'
+     '[Nageki no Bourei wa Intai Shitai][11][BDRIP][1080P][H264_FLAC].mkv'
+     '[Nageki no Bourei wa Intai Shitai][12][BDRIP][1080P][H264_FLACx2].mkv'
+     '[Nageki no Bourei wa Intai Shitai][13][BDRIP][1080P][H264_FLACx2].mkv'
+     '[Nageki no Bourei wa Intai Shitai][Logo][BDRIP][1080P][H264_FLAC].mkv'
+     '[Nageki no Bourei wa Intai Shitai][Producer Logo][BDRIP][1080P][H264_FLAC].mkv'
+     '[Nageki no Bourei wa Intai Shitai][Vol.01][Disc 01][Menu][BDRIP][1080P][H264_FLAC].mkv'
+     '[Nageki no Bourei wa Intai Shitai][Vol.01][Disc 01][SP01][EP02 Yokoku][BDRIP][1080P][H264_FLAC].mkv'
+     '[Nageki no Bourei wa Intai Shitai][Vol.01][Disc 01][SP02][EP03 Yokoku][BDRIP][1080P][H264_FLAC].mkv'
+     '[Nageki no Bourei wa Intai Shitai][Vol.01][Disc 01][SP03][EP04 Yokoku][BDRIP][1080P][H264_FLAC].mkv'
+     '[Nageki no Bourei wa Intai Shitai][Vol.01][Disc 02][Menu][BDRIP][1080P][H264_FLAC].mkv'
+     '[Nageki no Bourei wa Intai Shitai][Vol.01][Disc 02][SP01][NCOP][BDRIP][1080P][H264_FLAC].mkv'
+     '[Nageki no Bourei wa Intai Shitai][Vol.01][Disc 02][SP02][NCED][BDRIP][1080P][H264_FLAC].mkv'
+     '[Nageki no Bourei wa Intai Shitai][Vol.01][Disc 02][SP03][EP05 Yokoku][BDRIP][1080P][H264_FLAC].mkv'
+     '[Nageki no Bourei wa Intai Shitai][Vol.01][Disc 02][SP04][EP06 Yokoku][BDRIP][1080P][H264_FLAC].mkv'
+     '[Nageki no Bourei wa Intai Shitai][Vol.01][Disc 02][SP05][EP07 Yokoku][BDRIP][1080P][H264_FLAC].mkv'
+     '[Nageki no Bourei wa Intai Shitai][Vol.02][Disc 01][Menu][BDRIP][1080P][H264_FLAC].mkv'
+     '[Nageki no Bourei wa Intai Shitai][Vol.02][Disc 01][SP01][EP08 Yokoku][BDRIP][1080P][H264_FLAC].mkv'
+     '[Nageki no Bourei wa Intai Shitai][Vol.02][Disc 01][SP02][EP09 Yokoku][BDRIP][1080P][H264_FLAC].mkv'
+     '[Nageki no Bourei wa Intai Shitai][Vol.02][Disc 01][SP03][EP10 Yokoku][BDRIP][1080P][H264_FLAC].mkv'
+     '[Nageki no Bourei wa Intai Shitai][Vol.02][Disc 01][SP04][PV #01][BDRIP][1080P][H264_FLAC].mkv'
+     '[Nageki no Bourei wa Intai Shitai][Vol.02][Disc 01][SP05][Main PV][BDRIP][1080P][H264_FLAC].mkv'
+     '[Nageki no Bourei wa Intai Shitai][Vol.02][Disc 01][SP06][CM][BDRIP][1080P][H264_FLAC].mkv'
+     '[Nageki no Bourei wa Intai Shitai][Vol.02][Disc 02][Menu][BDRIP][1080P][H264_FLAC].mkv'
+     '[Nageki no Bourei wa Intai Shitai][Vol.02][Disc 02][SP01][EP11 Yokoku][BDRIP][1080P][H264_FLAC].mkv'
+     '[Nageki no Bourei wa Intai Shitai][Vol.02][Disc 02][SP02][EP12 Yokoku][BDRIP][1080P][H264_FLAC].mkv'
+     '[Nageki no Bourei wa Intai Shitai][Vol.02][Disc 02][SP03][EP13 Yokoku][BDRIP][1080P][H264_FLAC].mkv'
+    󰨖 'Nageki no Bourei wa Intai shitai - 01.meWATCH.zh-Hant.srt'
+    󰨖 'Nageki no Bourei wa Intai shitai - 02.meWATCH.zh-Hant.srt'
+    󰨖 'Nageki no Bourei wa Intai shitai - 03.meWATCH.zh-Hant.srt'
+    󰨖 'Nageki no Bourei wa Intai shitai - 04.meWATCH.zh-Hant.srt'
+    󰨖 'Nageki no Bourei wa Intai shitai - 05.meWATCH.zh-Hant.srt'
+    󰨖 'Nageki no Bourei wa Intai shitai - 06.meWATCH.zh-Hant.srt'
+    󰨖 'Nageki no Bourei wa Intai shitai - 07.meWATCH.zh-Hant.srt'
+    󰨖 'Nageki no Bourei wa Intai shitai - 08.meWATCH.zh-Hant.srt'
+    󰨖 'Nageki no Bourei wa Intai shitai - 09.meWATCH.zh-Hant.srt'
+    󰨖 'Nageki no Bourei wa Intai shitai - 10.meWATCH.zh-Hant.srt'
+    󰨖 'Nageki no Bourei wa Intai shitai - 11.meWATCH.zh-Hant.srt'
+    󰨖 'Nageki no Bourei wa Intai shitai - 12.meWATCH.zh-Hant.srt'
+    󰨖 'Nageki no Bourei wa Intai shitai - 13.meWATCH.zh-Hant.srt'
+---
+
+system:
+You are an expert in bash scripting and file manipulation. Create a bash command to rename multiple subtitles files to match their corresponding video files in a series. Your should:
+1. Identify the naming pattern in the provided list of files
+2. Provide a complete set of mv commands that can be directly executed to rename the files
+3. Ensure the solution is efficient and handles potential edge cases
+4. Provide brief explanations for your approach to help the user understand the logic in 正體中文zh-tw
+
+Analyze the provided list carefully to identify the corresponding patterns between subtitles and videos. When writing mv commands, ensure they are correct and ready for immediate execution. Your response should be clear, concise, and immediately applicable to the user's situation.
+
+A very important point: You don't need to write a loop program to logically handle the problem. What I want from you are simply dozens of mv commands.
+
+user:
+{{ USER_INPUT }}

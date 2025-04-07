@@ -31,6 +31,7 @@ Currently, all my LLM agents are published on Coze, and you can find them on my 
 | └ Scoring Criteria Maker | 生成評分標準的工具 | [📝](/automated-prompt-engineering/scoring-criteria-maker/) | [🤖](https://www.coze.com/s/Zs8Dg8SFx/) |
 | └ Simple Prompt Maker | 生成初始提示的工具 | [📝](/automated-prompt-engineering/simple-prompt-maker/) | [🤖](https://www.coze.com/s/Zs8Dg5sfY/) |
 | SourceGit AI Feature | [SourceGit](https://github.com/sourcegit-scm/sourcegit) commit message 產生提示詞 | [📝](/sourcegit-ai/) | |
+| 影片字幕重命名專家 (Video Subtitle Renaming Expert) | 擅長 Bash 腳本編寫與文件重命名處理 | [📝](/video-subtitle-renaming-expert/) | |
 
 ## My blogs
 
