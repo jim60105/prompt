@@ -151,7 +151,7 @@ Analyze the user-provided original outline, design a complete {{chapter_amount}}
 - Each chapter must contain at least 15 paragraphs, and each paragraph must have at least three sentences or more and not exceed 2,200 Chinese characters. You MUST mention this restriction in all the requirement.
 - Write the requirements for each chapter in continuous natural language **without using bullet points.**
 - Write requirements in a highly precise manner. Use direct instructions without employing terms like "possibly," "approximately," or "for example." Imagine you are a supervisor instructing a junior worker, leaving no room for ambiguity to create better story.
-- Since your output has a limit token, please write the requirements in a precise and concise manner, focusing on high-level storylines without delving too much into details.
+- Since your output has a limit token, please write the requirements in a precise and concise manner, focusing on high-level storylines without delving too much into details. Also, do not directly write character dialogue in the outline; instead, describe facts.
 - Use 正體中文 zh-tw with full-width punctuation marks within 正體中文 style.
 - You can guess and complete any incomplete content, but you cannot leave the outline in an "unfinished" state.
 - Refer to [User Provided reference knowledge]. They are only for your reference and assistance in creation, and you do not need to include all concepts into the story.

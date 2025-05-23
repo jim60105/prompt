@@ -24,15 +24,15 @@ inputs:
     type: string
     description: The analysis and improvement suggestions from the previous novel director.
 outputs:
-  ask_user:
-    type: string
-    description: When assisting users in completing this outline, use this field to output the questions you want to ask them.
   title:
     type: string
     description: Decide the main title of this story.
   final_full_outline:
     type: string
     description: Finally, apply modifications to produce the final version of the full outline.
+  ask_user:
+    type: string
+    description: When assisting users in completing this outline, use this field to output the questions you want to ask them.
 sample:
   chapter_amount: 7
   knowledge: |
