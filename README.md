@@ -12,6 +12,7 @@ Currently, all my LLM agents are published on Coze, and you can find them on my 
 | 配音劇本大師 (Voice Acting Script Master) | ✨ 您的虛擬配音劇本編輯助手！ | [📝](/voice-acting-script-master/) | [🤖](https://www.coze.com/s/Zs8DuptPQ/) |
 | 超級 W++ 故事工匠 (Super W++ StoryCrafter) | 探索無限可能的 W++ 故事工匠：您打造 LLM 角色扮演世界的神奇夥伴！ | [📝](/super-wpp-storycrafter/) | [🤖](https://www.coze.com/s/Zs8DaAY6t/) |
 | FLUX.1 影像提示助手 (FLUX.1 Image Prompt Assistant) | 專門協助建立 FLUX.1 影像生成提示文字的 AI 助手！ | [📝](/flux-1-image-prompt-assistant/) | [🤖](https://www.coze.com/s/Zs8DaCNEu/) |
+| SDXL 影像提示助手 (SDXL Image Prompt Assistant) | 專門協助建立 SDXL Booru 標籤格式提示文字的 AI 助手，基於 Civitai 熱門提示文字而設計 | [📝](/sdxl-image-prompt-assistant/) | [🤖](https://www.coze.com/s/Zs85vktXp/) |
 | CATAAS (Cat as a service) | 貓咪即服務 | [📝](/cat-as-a-service/) | [🤖](https://www.coze.com/s/Zs8DaxaHh/) |
 | 垃圾小說產生器 (Trash Novel Generator) | 📚 探索無限可能的廁紙 🗑️ | [📝](/trash-novel-generator/) | [🤖](https://www.coze.com/s/Zs8DXhSwb/) |
 | Playboard 解讀助手 (Playboard Insight) | 您的 YouTube 頻道數據分析專家：從 Playboard 提取關鍵資訊，為您解讀重要指標！ | [📝](/playboard-insight/) | [🤖](https://www.coze.com/s/Zs8Da4AcU/) |
